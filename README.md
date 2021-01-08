@@ -61,7 +61,7 @@ Once all of the values were normalized to values between 0 and 1, they were read
 
 There are many different clustering techniques available, but given the recent use of k-means in previous labs in the course, I chose to use k-means for clustering this data. While k-means is a strong unsupervised machine learning algorithm, it is good to tune parameters ahead of time to ensure that the model is running optimally. The most significant parameter to tune with this model is k, the number of clusters. I used the elbow method to deduce which number of clusters was best appropriate, and after observing the graph below, chose 3 as a suitable number of clusters.
 
-![png](images/elbow.PNG)
+![png](images/elbow.png)
 
 # Results
 
